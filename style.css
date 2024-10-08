@@ -1,0 +1,57 @@
+ *{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ list-style: none;
+ font-size: 10px;
+ font-family: 'Poppins', sans-serif;
+}
+
+body {
+ min-height: 100vh;
+ width: 100%;
+ background-color: #D2A6C7;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+ 
+.checked:before {
+
+    content: ( );
+
+}
+ 
+.container_principal {
+ background-color: #C790B9;
+ min-width: 40rem; /* 400px */
+ max-height: 60vh;
+ padding: 2.5rem;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ border-radius: 1rem;
+ box-shadow: 2px 4px 10px #BC7AAC;
+}
+
+.titulo_lista {
+ margin: 2rem 0 3rem 0;
+ font-size: 2.5rem;
+ color:black
+}
+
+/* formulario */
+
+.form_add {
+ display: flex;
+ justify-content: center;
+ margin-bottom: 3rem;
+ width: 95%;
+}
+
+.input_add {
+ width: 30rem;
+ height: 100%;
+ padding:  1.2rem 1rem;
+}
